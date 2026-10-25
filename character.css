@@ -1,0 +1,5 @@
+.fui-character{display:block;width:100%;height:100%;max-width:100%;user-select:none;-webkit-user-select:none}
+.fui-character.is-interactive .fui-color-region{cursor:crosshair;transition:filter .16s}
+.fui-character.is-interactive .fui-color-region:hover{filter:brightness(1.14) saturate(1.07)}
+.fui-character [pointer-events="none"]{pointer-events:none}
+@media(prefers-reduced-motion:reduce){.fui-character .fui-color-region{transition:none}}
